@@ -1,1 +1,1 @@
-# CSE-15-Lab-Manual
+# CSE15 LabManual
