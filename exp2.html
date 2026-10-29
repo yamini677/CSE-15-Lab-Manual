@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Daily News</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      margin: 0;
+      padding: 0 20px 20px;
+      background: #ffffff;
+      color: #222;
+    }
+    header {
+      text-align: center;
+      border-bottom: 2px solid #999;
+      padding: 15px 0;
+    }
+    header h1 { margin: 0; font-size: 36px; }
+    header p  { margin: 5px 0 0; font-size: 14px; }
+
+    nav {
+      text-align: center;
+      padding: 12px 0;
+      border-bottom: 1px solid #ccc;
+      background: #f2f2f2;
+    }
+    nav a {
+      margin: 0 12px;
+      color: #0b3d91;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover { text-decoration: underline; color: #c0392b; }
+
+    section {
+      max-width: 800px;
+      margin: 25px auto;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    section h2 { color: #c0392b; }
+    img, iframe, video { max-width: 100%; }
+    img { height: auto; }
+    iframe { border: 0; }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      padding-top: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Global Daily News</h1>
+    <p>Your Trusted Source for Latest Updates</p>
+  </header>
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="#world">World</a> |
+    <a href="#sports">Sports</a> |
+    <a href="#entertainment">Entertainment</a> |
+    <a href="#podcast">Podcast</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- World News: image + external hyperlink -->
+  <section id="world">
+    <h2>World News</h2>
+    <p>Today's top headline: Global leaders meet to discuss climate change initiatives.</p>
+
+    <!-- Keep news.jpg in the same folder as Exp2.html -->
+    <img src="logo.jpg"
+         alt="World news banner" width="400">
+
+    <p>
+      <a href="https://www.bbc.com/news" target="_blank" rel="noopener noreferrer">
+        Visit BBC News
+      </a>
+    </p>
+  </section>
+
+  <!-- Sports: embedded YouTube video -->
+  <section id="sports">
+    <h2>Sports</h2>
+    <p>Watch the latest match highlights below.</p>
+
+    <iframe width="560" height="315"
+            src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
+            title="Sports highlights"
+            allowfullscreen>
+    </iframe>
+  </section>
+
+  <!-- Entertainment: video file -->
+  <section id="entertainment">
+    <h2>Entertainment</h2>
+    <p>Movie trailer of the week.</p>
+
+    <video width="500" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Podcast: audio clip -->
+  <section id="podcast">
+    <h2>Podcast</h2>
+    <p>Listen to today's news audio clip.</p>
+
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.mp3"
+              type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:news@globaldaily.com">news@globaldaily.com</a></p>
+  </section>
+
+  <footer>
+    &copy; 2026 Global Daily News. All rights reserved.
+  </footer>
+  <h3 align="right"><b>YAMINI JAISWAL</b></h3>
+  <h3 align="right"><b>2026B01010393</b></h3>
+</body>
+</html>
